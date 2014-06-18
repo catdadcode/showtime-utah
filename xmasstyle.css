@@ -1,0 +1,178 @@
+﻿body
+{
+	background-color: #dddddd;
+	background-image:url(images/snowflaketexture.jpg);
+}
+
+#frame
+{
+	width: 1000px;
+	height: 800px;
+	margin: auto;
+	background-image: url(images/background2.gif);
+}
+
+#banner
+{
+	background-image: url(images/xmasbanner.png);
+	background-repeat: no-repeat;
+	height: 215px;
+}
+
+#middle
+{
+	padding: 25px;
+}
+
+#footer
+{
+	width: 900px;
+	margin: auto;
+}
+
+.floatleft
+{
+	float: left;
+	margin-right: 5px;
+}
+
+#HomeImage
+{
+	background-image: url(images/homebutton.jpg);
+	background-repeat: no-repeat;
+}
+#HomeImage:hover
+{
+	background-image: url(images/homebutton2.jpg);
+	background-repeat: no-repeat;
+}
+#MenuImage
+{
+	background-image: url(images/menubutton.jpg);
+	background-repeat: no-repeat;
+}
+#MenuImage:hover
+{
+	background-image: url(images/menubutton2.jpg);
+	background-repeat: no-repeat;
+}
+#TicketsImage
+{
+	background-image: url(images/ticketsbutton.jpg);
+	background-repeat: no-repeat;
+}
+#TicketsImage:hover
+{
+	background-image: url(images/ticketsbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#ScheduleImage
+{
+	background-image: url(images/schedulebutton.jpg);
+	background-repeat: no-repeat;
+}
+#ScheduleImage:hover
+{
+	background-image: url(images/schedulebutton2.jpg);
+	background-repeat: no-repeat;
+}
+#ConcertsImage
+{
+	background-image: url(images/concertsbutton.jpg);
+	background-repeat: no-repeat;
+}
+#ConcertsImage:hover
+{
+	background-image: url(images/concertsbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#NewsletterImage
+{
+	background-image: url(images/newsletterbutton.jpg);
+	background-repeat: no-repeat;
+}
+#NewsletterImage:hover
+{
+	background-image: url(images/newsletterbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#LocationImage
+{
+	background-image: url(images/locationbutton.jpg);
+	background-repeat: no-repeat;
+}
+#LocationImage:hover
+{
+	background-image: url(images/locationbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#AboutUsImage
+{
+	background-image: url(images/aboutusbutton.jpg);
+	background-repeat: no-repeat;
+}
+#AboutUsImage:hover
+{
+	background-image: url(images/aboutusbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#ContactImage
+{
+	background-image: url(images/contactbutton.jpg);
+	background-repeat: no-repeat;
+}
+#ContactImage:hover
+{
+	background-image: url(images/contactbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#mainpanel
+{
+	background-image: url(images/xmasmainpanel.gif);
+	background-repeat: no-repeat;
+	height: 410px;
+	width: 460px;
+	vertical-align: middle;
+	padding: 45px;
+}
+#mainoverflow
+{
+	overflow: auto;
+	height: 410px;
+	width: 460px;
+}
+#menu
+{
+	width: 900px;
+	height: 415px;
+	background-image: url(images/xmasdinnerfarebackdrop.jpg);
+    background-repeat: no-repeat;
+    padding-top: 85px;
+}
+#newsletterpanel
+{
+	color: #000000;
+	background-image: url(images/xmasmainpanel.gif);
+	width: 460px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 410px;
+	padding: 45px;
+}
+#fullbackdrop
+{
+	width: 830px;
+	height: 350px;
+	background-image: url(images/xmasfullbackdrop.gif);
+	background-repeat: no-repeat;
+	padding: 35px;
+}
+#fullbackdrop2
+{
+	width: 870px;
+	height: 470px;
+	background-image: url(images/fullbackdrop2.gif);
+	background-repeat: no-repeat;
+	padding: 15px;
+	text-align:left;
+}

@@ -1,0 +1,150 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="chevtek_ShowTimeUtah_Template" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title><span id="stylesheet" runat="server"></span>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="backgroundframe">
+            <div id="frame">
+                <a href="Default.aspx">
+                    <div id="banner">
+                    </div>
+                </a>
+                <div id="navigation">
+                    <center>
+                        <asp:Menu ID="Menu1" ForeColor="Red" Font-Size="17px" Font-Bold="true" Font-Italic="true"
+                            runat="server" Orientation="Horizontal" Width="950px" BorderColor="Black">
+                            <Items>
+                                <asp:MenuItem NavigateUrl="Default.aspx" Text="Home" Value="Home" ImageUrl="images/pin.gif">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="Menu.aspx" Text="Menu" Value="Menu" ImageUrl="images/pin.gif">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="Tickets.aspx" Text="Tickets" Value="Tickets" ImageUrl="images/pin.gif">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="Calendar.aspx" Text="Calendar" Value="Calendar" ImageUrl="images/pin.gif">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="Concerts.aspx" Text="Our Bands" Value="Our Bands" ImageUrl="images/pin.gif">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="Newsletter.aspx" Text="Newsletter" Value="Newsletter"
+                                    ImageUrl="images/pin.gif"></asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="Location.aspx" Text="Location" Value="Location" ImageUrl="images/pin.gif">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="AboutUs.aspx" Text="About Us" Value="About Us" ImageUrl="images/pin.gif">
+                                </asp:MenuItem>
+                                <asp:MenuItem NavigateUrl="Contact.aspx" Text="Contact" Value="Contact" ImageUrl="images/pin.gif">
+                                </asp:MenuItem>
+                            </Items>
+                            <StaticMenuItemStyle ForeColor="Black" />
+                            <StaticHoverStyle ForeColor="Red" />
+                        </asp:Menu>
+                        <%--<table>
+                            <tr>
+                                <td id="HomeImage">
+                                    <a href="Default.aspx">
+                                        <img border="0" src="images/clearbutton.gif" /></a>
+                                </td>
+                                <td id="MenuImage">
+                                    <a href="Menu.aspx">
+                                        <img border="0" src="images/clearbutton.gif" /></a>
+                                </td>
+                                <td id="TicketsImage">
+                                    <a href="Tickets.aspx">
+                                        <img border="0" src="images/clearbutton.gif" /></a>
+                                </td>
+                                <td id="ScheduleImage">
+                                    <a href="Calendar.aspx">
+                                        <img border="0" src="images/clearbutton.gif" /></a>
+                                </td>
+                                <td id="ConcertsImage">
+                                    <a href="Concerts.aspx">
+                                        <img border="0" src="images/clearbutton.gif" /></a>
+                                </td>
+                                <td id="NewsletterImage">
+                                    <a href="Newsletter.aspx">
+                                        <img border="0" src="images/clearbutton.gif" /></a>
+                                </td>
+                                <td id="LocationImage">
+                                    <a href="Location.aspx">
+                                        <img border="0" src="images/clearbutton.gif" /></a>
+                                </td>
+                                <td id="AboutUsImage">
+                                    <a href="AboutUs.aspx">
+                                        <img border="0" src="images/clearbutton.gif" /></a>
+                                </td>
+                                <td id="ContactImage">
+                                    <a href="Contact.aspx">
+                                        <img border="0" src="images/clearbutton.gif" /></a>
+                                </td>
+                            </tr>
+                        </table>--%>
+                    </center>
+                </div>
+                <div id="middle">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="footer">
+                <table width="100%">
+                    <tr>
+                        <td valign="top">
+                            <div style="width: 215px; padding: 3px; background-color: #ffffcc; border: solid 1px #000000;">
+                                <a href="http://www.chevtek.com">
+                                    <img border="0" alt="Chevtek Web Solutions" src="images/createdby.png" /></a>
+                            </div>
+                        </td>
+                        <td align="right" valign="top">
+                            <asp:LoginView ID="LoginView1" runat="server">
+                                <LoggedInTemplate>
+                                    <div style="width: 300px; padding: 3px; background-color: #ffffcc; border: solid 1px #000000;
+                                        text-align: center;">
+                                        <a style="color: #0000ff;" href="ChangePassword.aspx">Change Password</a>&nbsp &nbsp
+                                        &nbsp
+                                        <asp:LoginStatus ID="LoginStatus1" ForeColor="#0000ff" runat="server" />
+                                        <b>
+                                            <asp:LoginName ID="LoginName1" runat="server" />
+                                        </b>
+                                    </div>
+                                </LoggedInTemplate>
+                                <AnonymousTemplate>
+                                    <div id="loginbutton" runat="server">
+                                    </div>
+                                </AnonymousTemplate>
+                            </asp:LoginView>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7292713-9");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+<!-- Begin OrangeSoda Tracking Code --> 
+<script language="javascript" type="text/javascript"> 
+	var cid = 101600; 	// client identifier: must match cid provided by Orange Soda
+	var amt = 0.00; 	// amount: optional value of conversion
+	var qty = 0;		// quantity: optional quantity of items purchased/requested
+	var t = 'h';		// type: 'h' for tracking; 'c' for conversion
+	var tid = '';		// transaction id: optional id used by customer to identify the transaction
+</script> 
+<script type="text/javascript">
+	var strProtocol = (document.location.protocol == "https:") ? "https://" : "http://";
+	document.write(unescape("%3Cscript src='" + strProtocol + "otracking.com/js/Tracking.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<!-- End OrangeSoda Tracking Code -->
+
+</body>
+</html>

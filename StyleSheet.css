@@ -1,0 +1,198 @@
+﻿body
+{
+	background-color: #dddddd;
+	background-image: url(images/bgtexture.jpg);
+}
+
+#frame
+{
+	width: 1000px;
+	height: 790px;
+	border: solid 0px #ff0000;
+}
+
+#backgroundframe
+{
+	width: 1000px;
+	height: 800px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image:url(images/background2.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	border: solid 0px #ff0000;
+	padding:100px;
+}
+
+#banner
+{
+	margin-top:10px;
+	background-image: url(images/banner2.png);
+	background-repeat: no-repeat;
+	height: 215px;
+}
+
+#middle
+{
+	padding: 10px;
+}
+
+#navigation
+{
+	padding-top:10px;
+}
+
+#footer
+{
+	width: 900px;
+	margin: auto;
+}
+
+.floatleft
+{
+	float: left;
+	margin-right: 5px;
+}
+
+#HomeImage
+{
+	background-image: url(images/homebutton.jpg);
+	background-repeat: no-repeat;
+}
+#HomeImage:hover
+{
+	background-image: url(images/homebutton2.jpg);
+	background-repeat: no-repeat;
+}
+#MenuImage
+{
+	background-image: url(images/menubutton.jpg);
+	background-repeat: no-repeat;
+}
+#MenuImage:hover
+{
+	background-image: url(images/menubutton2.jpg);
+	background-repeat: no-repeat;
+}
+#TicketsImage
+{
+	background-image: url(images/ticketsbutton.jpg);
+	background-repeat: no-repeat;
+}
+#TicketsImage:hover
+{
+	background-image: url(images/ticketsbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#ScheduleImage
+{
+	background-image: url(images/schedulebutton.jpg);
+	background-repeat: no-repeat;
+}
+#ScheduleImage:hover
+{
+	background-image: url(images/schedulebutton2.jpg);
+	background-repeat: no-repeat;
+}
+#ConcertsImage
+{
+	background-image: url(images/concertsbutton.jpg);
+	background-repeat: no-repeat;
+}
+#ConcertsImage:hover
+{
+	background-image: url(images/concertsbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#NewsletterImage
+{
+	background-image: url(images/newsletterbutton.jpg);
+	background-repeat: no-repeat;
+}
+#NewsletterImage:hover
+{
+	background-image: url(images/newsletterbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#LocationImage
+{
+	background-image: url(images/locationbutton.jpg);
+	background-repeat: no-repeat;
+}
+#LocationImage:hover
+{
+	background-image: url(images/locationbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#AboutUsImage
+{
+	background-image: url(images/aboutusbutton.jpg);
+	background-repeat: no-repeat;
+}
+#AboutUsImage:hover
+{
+	background-image: url(images/aboutusbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#ContactImage
+{
+	background-image: url(images/contactbutton.jpg);
+	background-repeat: no-repeat;
+}
+#ContactImage:hover
+{
+	background-image: url(images/contactbutton2.jpg);
+	background-repeat: no-repeat;
+}
+#mainpanel
+{
+	background-image: url(images/mainpanel.gif);
+	background-repeat: no-repeat;
+	height: 450px;
+	width: 500px;
+	vertical-align: middle;
+	padding: 25px;
+}
+#mainoverflow
+{
+	overflow: auto;
+	height: 450px;
+	width: 500px;
+}
+#menu
+{
+	width: 900px;
+	height: 500px;
+	background-image: url(images/fullbackdrop2.gif);
+	background-repeat: no-repeat;
+}
+#newsletterpanel
+{
+	color: #000000;
+	background-image: url(images/mainpanel.gif);
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 450px;
+	padding: 25px;
+}
+#fullbackdrop
+{
+	width: 830px;
+	height: 350px;
+	background-image: url(images/fullbackdrop.gif);
+	background-repeat: no-repeat;
+	padding: 35px;
+}
+#fullbackdrop2
+{
+	width: 850px;
+	height: 470px;
+	background-image: url(images/fullbackdrop2.gif);
+	background-repeat: no-repeat;
+	padding-top: 15px;
+	padding-bottom:15px;
+	padding-left:35px;
+	padding-right:35px;
+	text-align:left;
+}
